@@ -5,4 +5,4 @@ if [ -z "$name" ]; then
     exit 1
 fi
 
-heroku apps:destroy "$name"
+heroku apps:destroy $name
